@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: white;
+    height: 850px;
+    width: 50vw;
+    border: 5px solid gray;
+    
+}
+#hide-btn{
+    background-color: #555;
+    color: white;
+    border: none;
+    position: fixed;
+    cursor: pointer;
+    opacity: 0.8;
+    margin-left: 30vw;
+    width: 280px;
+    padding: 16px 20px;
+    bottom: 23px;
+}
+.form-popup{
+  display: none;
+   position: fixed;
+   bottom: 20px; 
+   border: 3px solid #f1f1f1;
+   margin-left: 500px;
+   
+}
+.form-container{
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    padding: 10px;   
+}
+.text{
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1; 
+}
+.text:focus{
+    background-color: #ddd;
+    outline: none;
+}
+.Submit{
+    background-color:#04aa6d;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+.Close{
+    background-color: red;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+.open-btn:hover, .Submit:hover, .Close:hover{
+    opacity: 1;
+} 
+
